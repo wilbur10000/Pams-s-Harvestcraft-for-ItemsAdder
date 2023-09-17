@@ -1,9 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
 <h3 align="center">Pam's Harvestcraft For ItemsAdder</h3>
 
   <p align="center">
@@ -28,9 +22,9 @@
 This is a port of Pam's Harvestcraft 2 Mods from CurseForge. 
 
 This pack contains the following:
-- Pam's Harvestcraft crops;
-- Pam's Harvestcraft trees;
-- Pam's Harvestcraft foodcore;
+- <a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops">Pam's Harvestcraft crops</a>;
+- <a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees">Pam's Harvestcraft trees</a>;
+- <a href="https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core">Pam's Harvestcraft foodcore</a>;
 - Original crafting recipes;
 - Original hunger and saturation values.
 
@@ -108,22 +102,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Alessa C. - [@twitter_handle](https://twitter.com/Kissadere) - alessa.coss@peritosdemexico.org
+Alessa C. - [@Kissadere](https://twitter.com/Kissadere) - alessa.coss@peritosdemexico.org
 
 Project Link: [https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder](https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/coss
