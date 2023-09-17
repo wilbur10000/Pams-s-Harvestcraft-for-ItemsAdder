@@ -53,17 +53,35 @@ You can use WinRar to open-up .jar files and extract it's content.
 
 ### Installation
 
-1:
-Copy --> assets/pamhc2foodcore/textures/item
-Paste it into --> plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/foods
+1.
+- Copy 
+```
+assets/pamhc2foodcore/textures/item
+```
+- Paste it into 
+```
+plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/foods
+```
 
-2:
-Copy --> assets/pamhc2crops/textures/item
-Paste it into --> plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/crops
+2.
+- Copy 
+```
+assets/pamhc2crops/textures/item
+```
+- Paste it into 
+```
+plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/crops
+```
 
-3:
-Copy --> assets/pamhc2trees/textures/item
-Paste it into --> plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/trees
+3.
+- Copy 
+```
+assets/pamhc2trees/textures/item
+```
+- Paste it into 
+```
+plugins/ItemsAdder/contents/pamfoods/resource_pack/assets/pam/textures/item/trees
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
