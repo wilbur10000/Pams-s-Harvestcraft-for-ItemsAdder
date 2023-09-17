@@ -1,0 +1,12 @@
+This is a port of Pam's Harvestcraft 2 Mods from CurseForge. 
+
+This pack contains the following:
+- Pam's Harvestcraft crops;
+- Pam's Harvestcraft trees;
+- Pam's Harvestcraft foodcore;
+- Original crafting recipes;
+- Original hunger and saturation values.
+
+All of the configuration was made to mimic the original mod. It contains over 20K lines of configuration and it's available for free <3
+
+Sadly, i cannot provide the textures from Pam's mods since she didn't give me permissions but you can easily extract the assets from her mods and drop them inside the resource_pack folder from ItemsAdder.
