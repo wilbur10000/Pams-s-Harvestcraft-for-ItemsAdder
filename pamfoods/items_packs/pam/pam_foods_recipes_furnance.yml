@@ -1,0 +1,229 @@
+info:
+  namespace: pam
+
+recipes:
+  cooking:
+    cookedgroundbeef:
+      ingredient:
+        item: pam:groundbeefitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundbeefitem
+
+    cookedgroundchicken:
+      ingredient:
+        item: pam:groundchickenitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundchickenitem
+
+    cookedgroundfish:
+      ingredient:
+        item: pam:groundfishitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundfishitem
+
+    cookedgroundmutton:
+      ingredient:
+        item: pam:groundmuttonitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundmuttonitem
+
+    cookedgroundpork:
+      ingredient:
+        item: pam:groundporkitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundporkitem
+
+    cookedgroundrabbit:
+      ingredient:
+        item: pam:groundrabbititem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:cookedgroundrabbititem
+
+    roastedacorn:
+      ingredient:
+        item: pam:acornitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedacornitem
+
+    roastedalmond:
+      ingredient:
+        item: pam:almonditem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedalmonditem
+
+    roastedcashew:
+      ingredient:
+        item: pam:cashewitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedcashewitem
+
+    roastedchestnut:
+      ingredient:
+        item: pam:chestnutitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedchestnutitem
+
+    roastedgarlic:
+      ingredient:
+        item: pam:garlicitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedgarlicitem
+
+    roastedhazelnut:
+      ingredient:
+        item: pam:hazelnutitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedhazelnutitem
+
+    roastedkohlrabi:
+      ingredient:
+        item: pam:kohlrabiitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedkohlrabiitem
+
+    roastedleek:
+      ingredient:
+        item: pam:leekitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedleekitem
+
+    roastedmushroom:
+      ingredient:
+        item: pam:whitemushroomitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedmushroomitem
+
+    roastedonion:
+      ingredient:
+        item: pam:onionitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedonionitem
+    
+    hottea:
+      ingredient:
+        item: pam.tealeafitem
+      machines:
+      - FURNACE
+      exp: 10
+      cook_time: 600
+      result:
+        amount: 1
+        item: pam.hotteaitem
+
+    hotcoffee:
+      ingredient:
+        item: pam.coffeebeanitem
+      machines:
+      - FURNACE
+      exp: 10
+      cook_time: 600
+      result:
+        amount: 1
+        item: pam.hotcoffeeitem
+
+    hotnettletea:
+      ingredient:
+        item: pam.nettleitem
+      machines:
+      - FURNACE
+      exp: 10
+      cook_time: 600
+      result:
+        amount: 1
+        item: pam.hotnettleteaitem

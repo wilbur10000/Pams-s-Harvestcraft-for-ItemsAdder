@@ -1,0 +1,112 @@
+info:
+  namespace: pam
+
+items:
+  bakewareitem:
+    display_name: Charola para hornear
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/bakewareitem.png
+    durability:
+      max_custom_durability: 64
+  cuttingboarditem:
+    display_name: Tabla para cortar
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/cuttingboarditem.png
+    durability:
+      max_custom_durability: 64
+  grinderitem:
+    display_name: Machacador
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/grinderitem.png
+    durability:
+      max_custom_durability: 64
+  juiceritem:
+    display_name: Exprimidor
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/juiceritem.png
+    durability:
+      max_custom_durability: 64
+  mixingbowlitem:
+    display_name: Molcajete
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/mixingbowlitem.png
+    durability:
+      max_custom_durability: 64
+  potitem:
+    display_name: Olla
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/potitem.png
+    durability:
+      max_custom_durability: 64
+  saucepanitem:
+    display_name: Cacerola
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/saucepanitem.png
+    durability:
+      max_custom_durability: 64
+  rolleritem:
+    display_name: Rodillo
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/rolleritem.png
+    durability:
+      max_custom_durability: 64
+  skilletitem:
+    display_name: Sartén
+    lore:
+    - '&f'
+    - '&8Utencilios de cocina'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/skilletitem.png
+    durability:
+      max_custom_durability: 64

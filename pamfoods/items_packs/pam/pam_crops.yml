@@ -1,0 +1,2979 @@
+info:
+  namespace: pam
+
+items:
+  agaveitem:
+    display_name: Agave
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/agaveitem.png
+  alfalfaitem:
+    display_name: Alfalfa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/alfalfaitem.png
+  aloeitem:
+    display_name: Aloe
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/aloeitem.png
+  amaranthitem:
+    display_name: Amaranto
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/amaranthitem.png
+  arrowrootitem:
+    display_name: Arrurruz
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/arrowrootitem.png
+  artichokeitem:
+    display_name: Alcachofa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/artichokeitem.png
+  asparagusitem:
+    display_name: Esparrago
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/asparagusitem.png
+  bakedarrowrootitem:
+    display_name: Arruruz horneado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedarrowrootitem.png
+  bakedcassavaitem:
+    display_name: Mandioca horneada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedcassavaitem.png
+  bakedjicamaitem:
+    display_name: Jícama horneada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedjicamaitem.png
+  bakedparsnipitem:
+    display_name: Chirivia horneada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedparsnipitem.png
+  bakedrutabagaitem:
+    display_name: Nabo sueco horneado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedrutabagaitem.png
+  bakedsunchokeitem:
+    display_name: Alcachofa horneada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedsunchokeitem.png
+  bakedsweetpotatoitem:
+    display_name: Camote horneado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedsweetpotatoitem.png
+  bakedtaroitem:
+    display_name: Taro horneado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedtaroitem.png
+  bakedturnipitem:
+    display_name: Nabo horneado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedturnipitem.png
+  bakedwaterchestnutitem:
+    display_name: Castaña horneada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bakedwaterchestnutitem.png
+  barleyitem:
+    display_name: Cebada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/barleyitem.png
+  barrelcactusitem:
+    display_name: Cáctus de barril
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/barrelcactusitem.png
+  beanitem:
+    display_name: Frijol
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/beanitem.png
+  bellpepperitem:
+    display_name: Pimiento
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bellpepperitem.png
+  blackberryitem:
+    display_name: Mora
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/blackberryitem.png
+  blueberryitem:
+    display_name: Arándano
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/blueberryitem.png
+  bokchoyitem:
+    display_name: Col China
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/bokchoyitem.png
+  broccoliitem:
+    display_name: Brócoli
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/broccoliitem.png
+  brusselsproutitem:
+    display_name: Coles de brusela
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/brusselsproutitem.png
+  cabbageitem:
+    display_name: Col
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cabbageitem.png
+  cactusfruititem:
+    display_name: Tuna
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cactusfruititem.png
+  calabashitem:
+    display_name: Calabaza
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/calabashitem.png
+  candleberryitem:
+    display_name: Candleberry
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/candleberryitem.png
+  canolaitem:
+    display_name: Canola
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/canolaitem.png
+  cantaloupeitem:
+    display_name: Melón
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cantaloupeitem.png
+  cassavaitem:
+    display_name: Mandioca
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cassavaitem.png
+  cattailitem:
+    display_name: Espadaña
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cattailitem.png
+  caulifloweritem:
+    display_name: Coliflor
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/caulifloweritem.png
+  celeryitem:
+    display_name: Apio
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/celeryitem.png
+  chiaitem:
+    display_name: Chia
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/chiaitem.png
+  chickpeaitem:
+    display_name: Garbanzo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/chickpeaitem.png
+  chilipepperitem:
+    display_name: Chile
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/chilipepperitem.png
+  cloudberryitem:
+    display_name: Zarzamora
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cloudberryitem.png
+  coffeebeanitem:
+    display_name: Grano de café
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/coffeebeanitem.png
+  cornitem:
+    display_name: Maíz
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cornitem.png
+  cottonitem:
+    display_name: Algodón
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cottonitem.png
+  cranberryitem:
+    display_name: Arándano
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cranberryitem.png
+  cucumberitem:
+    display_name: Pepino
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/cucumberitem.png
+  eggplantitem:
+    display_name: Berenjena
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/eggplantitem.png
+  elderberryitem:
+    display_name: Saúco
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/elderberryitem.png
+  flaxitem:
+    display_name: Linaza
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/flaxitem.png
+  garlicitem:
+    display_name: Ajo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/garlicitem.png
+  gingeritem:
+    display_name: Jengibre
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/gingeritem.png
+  grapeitem:
+    display_name: Uvas
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/grapeitem.png
+  greengrapeitem:
+    display_name: Uvas verdes
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/greengrapeitem.png
+  guaranaitem:
+    display_name: Guaraná
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/guaranaitem.png
+  hotcoffeeitem:
+    display_name: Café caliente
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/hotcoffeeitem.png
+  hotnettleteaitem:
+    display_name: Té de hortiga
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/hotnettleteaitem.png
+  hotteaitem:
+    display_name: Té
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/hotteaitem.png
+  huckleberryitem:
+    display_name: Arándano
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/huckleberryitem.png
+  jicamaitem:
+    display_name: Jícama
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/jicamaitem.png
+  juniperberryitem:
+    display_name: Baya de enebro
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/juniperberryitem.png
+  juteitem:
+    display_name: Jute
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/juteitem.png
+  kaleitem:
+    display_name: Col rizada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/kaleitem.png
+  kenafitem:
+    display_name: Kenaf
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/kenafitem.png
+  kiwiitem:
+    display_name: Kiwi
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/kiwiitem.png
+  kohlrabiitem:
+    display_name: Colinabo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/kohlrabiitem.png
+  leekitem:
+    display_name: Puerro
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/leekitem.png
+  lentilitem:
+    display_name: Lenteja
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/lentilitem.png
+  lettuceitem:
+    display_name: Lechuga
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/lettuceitem.png
+  lotusitem:
+    display_name: Loto
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/lotusitem.png
+  milletitem:
+    display_name: Mijo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/milletitem.png
+  mulberryitem:
+    display_name: Mora
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/mulberryitem.png
+  mustardseedsitem:
+    display_name: Semillas de mostaza
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/mustardseedsitem.png
+  nettlesitem:
+    display_name: Ortiga
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/nettlesitem.png
+  nopalesitem:
+    display_name: Nopales
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/nopalesitem.png
+  oatsitem:
+    display_name: Avena
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/oatsitem.png
+  okraitem:
+    display_name: Okra
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/okraitem.png
+  onionitem:
+    display_name: Cebolla
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/onionitem.png
+  papyrusitem:
+    display_name: Papiro
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/papyrusitem.png
+  parsnipitem:
+    display_name: Chirivía
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/parsnipitem.png
+  peanutitem:
+    display_name: Cacahuate
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/peanutitem.png
+  peasitem:
+    display_name: Chícharo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/peasitem.png
+  pineappleitem:
+    display_name: Piña
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/pineappleitem.png
+  quinoaitem:
+    display_name: Quinoa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/quinoaitem.png
+  radishitem:
+    display_name: Rábano
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/radishitem.png
+  raspberryitem:
+    display_name: Frambuesa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/raspberryitem.png
+  rhubarbitem:
+    display_name: Ruibardo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/rhubarbitem.png
+  riceitem:
+    display_name: Arroz
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/riceitem.png
+  roastedgarlicitem:
+    display_name: Ajo rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedgarlicitem.png
+  roastedkohlrabiitem:
+    display_name: Colinabo rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedkohlrabiitem.png
+  roastedleekitem:
+    display_name: Puero rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedleekitem.png
+  roastedmushroomitem:
+    display_name: Seta rostizada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedmushroomitem.png
+  roastedonionitem:
+    display_name: Cebolla rostizada
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedonionitem.png
+  roastedpeanutitem:
+    display_name: Cacahuate rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedpeanutitem.png
+  roastedradishitem:
+    display_name: Rábano rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedradishitem.png
+  roastedrhubarbitem:
+    display_name: Ruibardo rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedrhubarbitem.png
+  roastedscallionitem:
+    display_name: Cebollín rostizado
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/roastedscallionitem.png
+  rutabagaitem:
+    display_name: Nabo sueco
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/rutabagaitem.png
+  ryeitem:
+    display_name: Centeno
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/ryeitem.png
+  scallionitem:
+    display_name: Cebollín
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/scallionitem.png
+  sesameseedsitem:
+    display_name: Semillas de sésamo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/sesameseedsitem.png
+  sisalitem:
+    display_name: Sisal
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/sisalitem.png
+  sorghumitem:
+    display_name: Sorgo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/sorghumitem.png
+  soybeanitem:
+    display_name: Soja
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/soybeanitem.png
+  spiceleafitem:
+    display_name: Especias
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/spiceleafitem.png
+  spinachitem:
+    display_name: Espinaca
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/spinachitem.png
+  strawberryitem:
+    display_name: Fresa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/strawberryitem.png
+  sunchokeitem:
+    display_name: Alcachofa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/sunchokeitem.png
+  sweetpotatoitem:
+    display_name: Camote
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/sweetpotatoitem.png
+  taroitem:
+    display_name: Taro
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/taroitem.png
+  tealeafitem:
+    display_name: Hoja de té
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/tealeafitem.png
+  tomatilloitem:
+    display_name: Tomate verde
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/tomatilloitem.png
+  tomatoitem:
+    display_name: Tomate
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/tomatoitem.png
+  truffleitem:
+    display_name: Trufa
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/truffleitem.png
+  turnipitem:
+    display_name: Nabo
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/turnipitem.png
+  waterchestnutitem:
+    display_name: Castaña
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/waterchestnutitem.png
+  whitemushroomitem:
+    display_name: Seta blanca
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/whitemushroomitem.png
+  wintersquashitem:
+    display_name: Calabaza
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/wintersquashitem.png
+  wolfberryitem:
+    display_name: Baya de Goji
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/wolfberryitem.png
+  yuccaitem:
+    display_name: Yuca
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/yuccaitem.png
+  zucchiniitem:
+    display_name: Zucchini
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      interact.right:
+        decrement_usages:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: MUSHROOM_STEW
+      textures:
+      - item/crops/zucchiniitem.png
