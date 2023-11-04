@@ -1,5 +1,5 @@
 info:
-  namespace: pam
+  namespace: pam1
 
 recipes:
   crafting_table:
@@ -40,7 +40,6 @@ recipes:
       ingredients:
         A: pam:juiceritem
         B: APPLE
-        C: APPLE
       result:
         amount: 1
         item: pam:applejuiceitem
@@ -73,7 +72,6 @@ recipes:
       ingredients:
         A: pam:cuttingboarditem
         B: APPLE
-        C: APPLE
         D: SUGAR
       result:
         amount: 1
@@ -155,9 +153,9 @@ recipes:
     bakeware:
       enabled: true
       pattern:
+      - XXX
+      - AXA
       - AAA
-      - AXA
-      - AXA
       ingredients:
         A: IRON_INGOT
       result:
@@ -237,7 +235,7 @@ recipes:
       enabled: true
       ingredients:
         A: pam:mixingbowlitem
-        B: pam.flouritem
+        B: pam:flouritem
         C: pam:freshmilkitem
         D: EGG
       result:
@@ -299,7 +297,7 @@ recipes:
     butteredbakedpotato:
       enabled: true
       ingredients:
-        A: pam:buttingboarditem
+        A: pam:cuttingboarditem
         B: BAKED_POTATO
         C: pam:butteritem
         D: pam:saltitem
@@ -333,7 +331,7 @@ recipes:
       enabled: true
       ingredients:
         A: pam:saucepanitem
-        B: pam:caracemlitem
+        B: pam:caramelitem
         C: APPLE
       result:
         amount: 1
@@ -526,7 +524,7 @@ recipes:
     chickendinner:
       enabled: true
       ingredients:
-        A: pam:cuttingboard
+        A: pam:cuttingboarditem
         B: pam:friedchickenitem
         C: pam:mashedpotatoesitem
         D: pam:avocadoitem
@@ -926,7 +924,7 @@ recipes:
     dough:
       enabled: true
       ingredients:
-        A: pam:mixingbowl
+        A: pam:mixingbowlitem
         B: pam:flouritem
         C: pam:freshwateritem
         D: pam:saltitem
@@ -1213,7 +1211,6 @@ recipes:
       ingredients:
         A: pam:juiceritem
         B: GLOW_BERRIES
-        C: GLOW_BERRIES
       result:
         amount: 1
         item: pam:glowberryjuiceitem
@@ -1559,7 +1556,7 @@ recipes:
     mashedpotatoes:
       enabled: true
       ingredients:
-        A: pam:mixingbowl
+        A: pam:mixingbowlitem
         B: BAKED_POTATO
         C: pam:butteritem
         D: pam:saltitem
@@ -1594,7 +1591,7 @@ recipes:
       ingredients:
         A: pam:bakewareitem
         B: pam:groundbeefitem
-        C: BREED
+        C: BREAD
       result:
         amount: 1
         item: pam:meatloafitem
@@ -1642,7 +1639,6 @@ recipes:
       ingredients:
         A: pam:juiceritem
         B: MELON_SLICE
-        C: MELON_SLICE
       result:
         amount: 1
         item: pam:melonjuiceitem
@@ -2115,7 +2111,6 @@ recipes:
       enabled: true
       ingredients:
         A: SUNFLOWER
-        B: SUNFLOWER
       result:
         amount: 1
         item: pam:sunflowerseedsitem
@@ -2158,7 +2153,6 @@ recipes:
       ingredients:
         A: pam:juiceritem
         B: SWEET_BERRIES
-        C: SWEET_BERRIES
       result:
         amount: 1
         item: pam:sweetberryjuiceitem
@@ -2205,7 +2199,7 @@ recipes:
     sweetberryyogurt:
       enabled: true
       ingredients:
-        A: pam:cuttingboard
+        A: pam:cuttingboarditem
         B: pam:yogurtitem
         C: SWEET_BERRIES
       result:
