@@ -8,7 +8,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -33,7 +33,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -58,7 +58,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -83,7 +83,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -108,7 +108,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -133,7 +133,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -158,7 +158,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -177,263 +177,13 @@ items:
       material: MUSHROOM_STEW
       textures:
       - item/crops/asparagusitem.png
-  bakedarrowrootitem:
-    display_name: Arruruz horneado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedarrowrootitem.png
-  bakedcassavaitem:
-    display_name: Mandioca horneada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedcassavaitem.png
-  bakedjicamaitem:
-    display_name: Jícama horneada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedjicamaitem.png
-  bakedparsnipitem:
-    display_name: Chirivia horneada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedparsnipitem.png
-  bakedrutabagaitem:
-    display_name: Nabo sueco horneado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedrutabagaitem.png
-  bakedsunchokeitem:
-    display_name: Alcachofa horneada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedsunchokeitem.png
-  bakedsweetpotatoitem:
-    display_name: Camote horneado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedsweetpotatoitem.png
-  bakedtaroitem:
-    display_name: Taro horneado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedtaroitem.png
-  bakedturnipitem:
-    display_name: Nabo horneado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedturnipitem.png
-  bakedwaterchestnutitem:
-    display_name: Castaña horneada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/bakedwaterchestnutitem.png
   barleyitem:
     display_name: Cebada
     durability:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -458,7 +208,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -483,7 +233,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -508,7 +258,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -533,7 +283,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -558,7 +308,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -583,7 +333,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -608,7 +358,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -633,7 +383,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -658,7 +408,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -683,7 +433,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -708,7 +458,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -733,7 +483,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -758,7 +508,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -783,7 +533,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -808,7 +558,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -833,7 +583,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -858,7 +608,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -883,7 +633,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -908,7 +658,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -933,7 +683,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -958,7 +708,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -983,7 +733,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1008,7 +758,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1033,7 +783,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1058,7 +808,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1083,7 +833,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1108,7 +858,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1133,7 +883,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1158,7 +908,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1183,7 +933,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1208,7 +958,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1233,7 +983,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1258,7 +1008,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1283,7 +1033,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1308,7 +1058,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1327,88 +1077,13 @@ items:
       material: MUSHROOM_STEW
       textures:
       - item/crops/guaranaitem.png
-  hotcoffeeitem:
-    display_name: Café caliente
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.drink
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/hotcoffeeitem.png
-  hotnettleteaitem:
-    display_name: Té de hortiga
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.drink
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/hotnettleteaitem.png
-  hotteaitem:
-    display_name: Té
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.drink
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/hotteaitem.png
   huckleberryitem:
     display_name: Arándano
     durability:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1433,7 +1108,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1458,7 +1133,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1483,7 +1158,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1508,7 +1183,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1533,7 +1208,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1558,7 +1233,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1583,7 +1258,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1608,7 +1283,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1633,7 +1308,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1658,7 +1333,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1683,7 +1358,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1708,7 +1383,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1733,7 +1408,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1758,7 +1433,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1783,7 +1458,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1808,7 +1483,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1833,7 +1508,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1858,7 +1533,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1883,7 +1558,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1908,7 +1583,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1933,7 +1608,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1958,7 +1633,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -1983,7 +1658,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2008,7 +1683,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2033,7 +1708,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2058,7 +1733,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2083,7 +1758,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2108,7 +1783,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2133,7 +1808,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2152,238 +1827,13 @@ items:
       material: MUSHROOM_STEW
       textures:
       - item/crops/riceitem.png
-  roastedgarlicitem:
-    display_name: Ajo rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedgarlicitem.png
-  roastedkohlrabiitem:
-    display_name: Colinabo rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedkohlrabiitem.png
-  roastedleekitem:
-    display_name: Puero rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedleekitem.png
-  roastedmushroomitem:
-    display_name: Seta rostizada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedmushroomitem.png
-  roastedonionitem:
-    display_name: Cebolla rostizada
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedonionitem.png
-  roastedpeanutitem:
-    display_name: Cacahuate rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedpeanutitem.png
-  roastedradishitem:
-    display_name: Rábano rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedradishitem.png
-  roastedrhubarbitem:
-    display_name: Ruibardo rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedrhubarbitem.png
-  roastedscallionitem:
-    display_name: Cebollín rostizado
-    durability:
-      disappear_when_broken: true
-      usages: 1
-    events:
-      interact.right:
-        decrement_usages:
-          amount: 1
-        feed:
-          amount: 1
-          saturation: 1
-        play_sound:
-          delay: 0
-          name: minecraft:entity.generic.eat
-    lore:
-    - '&a+1 &7Saturacion'
-    - '&a+1 &7Comida'
-    - '&f'
-    - '&8Semillas e Ingredientes'
-    resource:
-      generate: true
-      material: MUSHROOM_STEW
-      textures:
-      - item/crops/roastedscallionitem.png
   rutabagaitem:
     display_name: Nabo sueco
     durability:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2408,7 +1858,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2433,7 +1883,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2458,7 +1908,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2483,7 +1933,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2508,7 +1958,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2533,7 +1983,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2558,7 +2008,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2583,7 +2033,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2608,7 +2058,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2633,7 +2083,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2658,7 +2108,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2683,7 +2133,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2708,7 +2158,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2733,7 +2183,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2758,7 +2208,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2783,7 +2233,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2808,7 +2258,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2833,7 +2283,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2858,7 +2308,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2883,7 +2333,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2908,7 +2358,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2933,7 +2383,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
@@ -2958,7 +2408,7 @@ items:
       disappear_when_broken: true
       usages: 1
     events:
-      interact.right:
+      eat:
         decrement_usages:
           amount: 1
         feed:
