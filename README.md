@@ -3,10 +3,6 @@
   <p align="center">
     This is a port of Pam's Harvestcraft 2 Mod from CurseForge. 
     <br />
-    <a href="https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder">View Demo</a>
     ·
     <a href="https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder/issues">Report Bug</a>
     ·
@@ -103,7 +99,5 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Alessa C. - [@Kissadere](https://twitter.com/Kissadere) - alessa.coss@peritosdemexico.org
-
-Project Link: [https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder](https://github.com/Casanaura/Pams-s-Harvestcraft-for-ItemsAdder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
