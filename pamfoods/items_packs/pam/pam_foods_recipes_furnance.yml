@@ -194,36 +194,216 @@ recipes:
       result:
         amount: 1
         item: pam:roastedonionitem
+
+    roastedscallion:
+      ingredient:
+        item: pam:scallionitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedscallionitem
+
+    roastedrhubarb:
+      ingredient:
+        item: pam:rhubarbitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedrhubarbitem
+
+    roastedradish:
+      ingredient:
+        item: pam:radishitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedradishitem
+
+    roastedpeanut:
+      ingredient:
+        item: pam:peanutitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedpeanutitem
+
+    roastedsunflowerseeds:
+      ingredient:
+        item: pam:sunflowerseedsitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:roastedsunflowerseedsitem
     
     hottea:
       ingredient:
-        item: pam.tealeafitem
+        item: pam:tealeafitem
       machines:
       - FURNACE
       exp: 10
       cook_time: 600
       result:
         amount: 1
-        item: pam.hotteaitem
+        item: pam:hotteaitem
 
     hotcoffee:
       ingredient:
-        item: pam.coffeebeanitem
+        item: pam:coffeebeanitem
       machines:
       - FURNACE
       exp: 10
       cook_time: 600
       result:
         amount: 1
-        item: pam.hotcoffeeitem
+        item: pam:hotcoffeeitem
 
     hotnettletea:
       ingredient:
-        item: pam.nettleitem
+        item: pam:nettlesitem
       machines:
       - FURNACE
       exp: 10
       cook_time: 600
       result:
         amount: 1
-        item: pam.hotnettleteaitem
+        item: pam:hotnettleteaitem
+
+    bakedarrowroot:
+      ingredient:
+        item: pam:arrowrootitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedarrowrootitem
+
+    bakedcassava:
+      ingredient:
+        item: pam:cassavaitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedcassavaitem
+
+    bakedjicama:
+      ingredient:
+        item: pam:jicamaitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedjicamaitem
+
+    bakedparsnip:
+      ingredient:
+        item: pam:parsnipitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedparsnipitem
+
+    bakedrutabaga:
+      ingredient:
+        item: pam:rutabagaitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedrutabagaitem
+
+    bakedsunchoke:
+      ingredient:
+        item: pam:sunchokeitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedsunchokeitem
+
+    bakedsweetpotato:
+      ingredient:
+        item: pam:sweetpotatoitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedsweetpotatoitem
+
+    bakedtaro:
+      ingredient:
+        item: pam:taroitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedtaroitem
+
+    bakedturnip:
+      ingredient:
+        item: pam:turnipitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedturnipitem
+
+    bakedwaterchestnut:
+      ingredient:
+        item: pam:waterchestnutitem
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 30
+      cook_time: 1200
+      result:
+        amount: 1
+        item: pam:bakedwaterchestnutitem
